@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #4c4d5f;
+}
+
+body{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1015%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(222%2c 233%2c 245%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c307.692C56.949%2c296.667%2c106.266%2c270.68%2c160.143%2c249.187C228.656%2c221.855%2c326.818%2c230.303%2c359.613%2c164.23C392.143%2c98.691%2c325.497%2c26.478%2c305.639%2c-43.944C288.8%2c-103.658%2c281.435%2c-163.671%2c251.781%2c-218.169C215.687%2c-284.502%2c189.352%2c-377.584%2c115.504%2c-393.371C40.42%2c-409.422%2c-14.781%2c-320.782%2c-85.214%2c-290.211C-144.199%2c-264.609%2c-211.942%2c-266.545%2c-263.917%2c-228.685C-324.607%2c-184.477%2c-402.321%2c-133.139%2c-403.901%2c-58.072C-405.513%2c18.512%2c-306.912%2c56.077%2c-271.339%2c123.917C-238.666%2c186.227%2c-263.906%2c280.548%2c-205.653%2c320.002C-147.618%2c359.308%2c-68.815%2c321.014%2c0%2c307.692' fill='%23c9dbef'%3e%3c/path%3e%3cpath d='M1440 1103.495C1540.273 1099.596 1589.164 977.7139999999999 1673.353 923.105 1757.03 868.828 1890.321 875.302 1931.703 784.553 1973.088 693.796 1873.017 598.179 1866.9189999999999 498.618 1859.993 385.541 1961.625 257.515 1893.8609999999999 166.72699999999998 1827.4769999999999 77.78800000000001 1684.415 108.12900000000002 1573.465 105.45999999999998 1485.914 103.35399999999998 1406.308 135.546 1320.475 152.93400000000003 1224.835 172.30900000000003 1118.408 155.24900000000002 1040.122 213.50400000000002 955.53 276.452 880.701 374.241 881.376 479.682 882.046 584.329 984.7660000000001 654.463 1043.499 741.076 1091.47 811.818 1131.597 884.0509999999999 1194.686 941.717 1268.481 1009.169 1340.098 1107.379 1440 1103.495' fill='%23f4f7fc'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1015'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 70%;
+  margin: auto;
+  }
+
+/*Header*/
+header{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 10%;
+
+}
+
+header .header-texto p{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #00b289;
+    font-size: 1.75em;
+    letter-spacing: 2px;
+}
+
+nav .nav-link  li{
+    display: inline;
+    height: 100%;
+    padding: 5px 10px;
+  
+}
+
+nav .nav-link  a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Botones*/
+.buttons{
+  display: inline-block;
+}
+.buttons a{
+  text-decoration: none;
+}
+
+.buttons .log-in{
+  border-radius: 3px;
+  padding: 8px 15px;
+  margin-right: 5px;
+  border: 1px solid #00b289;
+  color: #00b289;
+  font-weight: bold;
+}
+
+.buttons .start{
+  color: #fff;
+  background: #00b289;
+  padding: 8px 15px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+/*Section Hero*/
+section.hero{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+  height:20vh;  
+  margin-top: 60px;
+  align-items: flex-start; 
+}
+
+section .hero-header h2{
+  font-size: 1.5em;
+}
+
+.hero-settings{
+  display: flex;
+}
+
+.hero-settings p, label{
+  margin-right: 15px;
+}
+
+
+
+/*Section Main*/
+
+section .container{
+  display: flex;
+  justify-content: space-around;
+}
+
+hr{
+  width: 85%;
+  border:2px solid #00b289;
+}
+.cards{
+  background-color:#fff ;
+  width: 600px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  padding-left: 80px;
+}
+
+.cards .card1{
+  margin-right: 200px;
+  
+
+}
+
+.card1 h2{
+  font-size: 1.5em;
+}
+
+
+.card1 sup{
+  font-weight: bold;
+}
+.card1 span{
+  font-weight: bold;
+  font-size: 2.25em;
+}
+
+.card1 ul li{
+  list-style: none;
+  margin-top: 10px; /* Ajusta según sea necesario */
+  margin-bottom: 10px; /* Ajusta según sea necesario */  
+}
+
+
+
+
+/*Card 2*/
+.card2 h2{
+  font-size: 1.5em;
+}
+
+
+.card2 sup{
+  font-weight: bold;
+}
+.card2 span{
+  font-weight: bold;
+  font-size: 2.25em;
+}
+
+.card2 ul li{
+  list-style:none;
+}
+
+
+/*Buttons card*/
+.buttons-card{
+  text-decoration: none;
+  color: #fff;
+  background: #00b289;
+  padding: 8px 15px;
+  border-radius: 3px;
+  /*position: relative;*/
+  width: 500px;
+  height: 50px;
+  left: 70px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+/*ARTICLE*/
+article h1{
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 80px;
+}
+
+
+article .box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  
+}
+
+
+.box-setting{
+  background-color: #fefefe;
+  width: 96%;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  padding: 15px;
+  box-shadow: 7px 10px 143px -14px rgba(74,209,209,0.74);
+-webkit-box-shadow: 7px 10px 143px -14px rgba(74,209,209,0.74);
+-moz-box-shadow: 7px 10px 143px -14px rgba(74,209,209,0.74);
+}
+
+
+.box-setting p {
+  font-size: 0.8em;
+}
+.box-setting.box-1 h2{
+  position: absolute;
+  right: 29px;
+  top: 18px;
+  font-size: 1.5em;
+}
+
+.box-setting.box-2 h2{
+  position: absolute;
+  right: 29px;
+  top: 119px;
+  font-size: 1.5em;
+}
+
+.box-setting.box-3 h2{
+  position: absolute;
+  right: 29px;
+  top: 235px;
+  font-size: 1.5em;
+}
+
+
+.box-setting.box-3 a{
+  text-decoration: none;
+  color: #00b289;
+  font-size: 0.8em;
+}
+
+
+
+/*FINAL*/
+.start .start-link{
+  background-color: #f0fafd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px ;
+}
+
+
+.start-link p{ 
+  font-size: 1.75em;
+}
+
+.start-link span{
+  font-size: 1.15em;
+  color: #00b289;
+
+}
+
+.start-link a{
+  text-decoration: none;
+  color: #fff;
+  background: #00b289;
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-weight: bold;
+}
